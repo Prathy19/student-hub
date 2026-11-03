@@ -1,4 +1,4 @@
-
+import BackendStatus from "./BackendStatus";
 const tools = [
   {
     number: "01",
@@ -135,6 +135,7 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <BackendStatus />
 
         <footer className="mt-20 border-t border-[#e8e9e3] pt-7 text-center">
           <p className="text-sm text-gray-500">

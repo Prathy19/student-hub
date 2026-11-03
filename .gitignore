@@ -39,3 +39,34 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# Operating system
+Thumbs.db
+
+# Frontend dependencies and generated files
+**/node_modules/
+**/.next/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
